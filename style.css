@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    width: auto;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0c1c9b;
+}
+header h1{
+    color:white;
+    font-size: 36px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+nav {
+    display: flex;
+    
+}
+
+ li {
+    list-style-type: none;
+    padding: 10px;    
+}
+
+li a{
+    text-decoration: none; 
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+    
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid white 1px;
+    
+   
+}
+
+.container{
+    
+    margin: auto;
+    max-width: 992px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.itens-container{
+    margin:15px;
+     
+}
+
+.conteudo-inicial{
+    min-width: 250px;
+}
+
+.conteudo-inicial h1 {
+    padding-bottom: 8px;
+    color:  #0c1c9b;
+    font-size: 42px;
+
+}
+
+.conteudo-inicial p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.botao{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.botao:hover{
+    transform: scale(1.08);
+    
+}
+
+.itens-container button{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #0c1c9b ;
+     
+}
+
+.itens-container button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.news h3{
+    background-color: #0c1c9b; 
+    color: white;
+}
+
+.news input{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.botao2{
+    width: 125px;
+    height: 20px;
+    border: solid blue 2px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background-color:#0c1c9b;
+    
+}
+.botao2 a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.botao2:hover{
+    transform: scale(1.08);
+}
+.itens-quem-somos img{
+    min-width: 500px;
+    min-height: 400px;
+}
+.itens-quem-somos h3::before{
+    content: "";
+    margin: 5px;
+    border-left: solid #0c1c9b 7px;
+}
+
+.itens-quem-somos h3{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.centro{
+    min-width:350px ;
+}
+
+
+#servicos{
+    display: flex;
+    flex-direction: row;
+    background-color: #0c1c9b ;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.itens-servicos{
+   
+    flex-direction: row;
+    margin: 15px;   
+}
+.itens-servicos p{
+font-size: 19px;
+padding-top: 15px;
+color: white;
+}
+
+.itens-servicos button{
+    margin-top: 15px;
+    width: 145px;
+    height: 35px;
+    border-radius: 8px;
+    color: #0c1c9b ;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+
+.itens-servicos button:hover{
+    transform: scale(1.08);
+}
+
+
+#planos{
+    justify-content: space-around;
+    align-items: flex-end;
+   
+
+}
+
+.itens-planos{
+
+    min-width: 200px;
+    border: solid #0c1c9b  5px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.itens-planos li{
+    list-style-type: disc;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.itens-planos h6{
+    border-bottom: solid #0c1c9b  4px;
+    width: 125px;
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+
+.itens-planos button{
+    border: none;
+    width: 140px;
+    height: 30px;
+    background-color: #0c1c9b ;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.itens-planos button:hover{
+    transform: scale(1.05);
+}
+
+#ofertas{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+   
+    
+}
+.itens-ofertas button:hover{
+    transform: scale(1.08);
+    background-color: white;
+}
+.itens-ofertas:hover{
+    transform: scale(1.08);
+}
+
+.itens-ofertas button{
+    margin-top: 12px;
+    width: 120px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #0c1c9b ;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.itens-ofertas{
+    margin: 8px;
+    min-width: 280px;
+    min-height: 400px;
+    text-align: center;  
+}
+
+.itens-ofertas h6 {
+    height: 30px;
+    padding-top: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #0c1c9b;
+}
+
+.itens-ofertas p{
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+.rio-de-janeiro{
+    background-image: url(img/viagens/rio.jpg);
+}
+.egito{
+    background-image: url(img/viagens/egito.jpg);
+}
+.roma {
+    background-image: url(img/viagens/roma.jpg);
+}
+.mexico{
+    background-image: url(img/viagens/mexico.jpg);
+}
+.new-york{
+    background-image: url(img/viagens/new-york.jpg);
+}
+.paris{
+    background-image: url(img/viagens/paris.jpg);
+}
+
+.rio-de-janeiro, .paris {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+}
+.new-york, .roma, .mexico, .egito{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+footer{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    height: 55px;
+    justify-content: space-around;
+    background-color: #0c1c9b;
+    
+    
+}
+ .fim{
+    color: white;
+    padding: 15px;
+    display: flex;
+    
+    
+}
+
+.fim i{
+    color: white;
+    font-size: 26px;
+    width: 50px;
+    
+}
+
+@media (max-width:992px){
+    header {
+        flex-direction: column;
+    }
+    nav li{
+        padding: 2px;
+        margin: auto;
+    }
+    .conteudo-inicial h1 {
+        font-size: 30px;
+    }
+    .container, #servicos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #planos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .itens-planos{
+        margin: 5px;
+    }
+    #ofertas{
+        align-items: center;
+    }
+    .itens-quem-somos img{
+        display: none;
+    }
+}
