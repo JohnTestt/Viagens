@@ -341,9 +341,11 @@ footer{
     
 }
 
-@media (max-width:992px){
+@media screen and (max-width:480px){
+    
     header {
         flex-direction: column;
+        
     }
     nav li{
         padding: 2px;
