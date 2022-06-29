@@ -10,5 +10,5 @@
 <h2>👨‍💻 Projeto</h2>
 <p>  Esse projeto foi desenvolvido por mim, com base no desafio da Dio. O desafio consistia em criar uma interface responsiva, utilizando a propriedade flex. Fiz algumas modificações para deixar o site com mais conteúdo</p>
 
-<h4>📸 <a href=""> Clique aqui para visualizar o site</a></h4>
+<h4>📸 <a href="https://johntestt.github.io/Viagens/"> Clique aqui para visualizar o site</a></h4>
 
